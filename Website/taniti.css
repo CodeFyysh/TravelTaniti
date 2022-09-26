@@ -1,0 +1,193 @@
+/*background color*/
+/* body {background-color: black;} */
+
+body {
+    background-image: url(Assets/vickholius-nugroho-jt6QxZwSOCQ-unsplash.jpg);
+}
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+
+ .responsive {
+    max-width: 100%;
+    height: auto;
+ }
+
+#hero {
+    background-color: #1C1CCC;
+   
+}
+
+/*Navigation */
+#navbar {
+    background-color: #1C1CCC;
+    overflow: hidden;
+}
+
+#navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+#navbar a:hover {
+    background-color: #397763;
+    color: black;
+}
+
+#navbar a.active {
+    background-color: #397763;
+    color: black;
+}
+
+/*content and parallax scrolling */
+.content {
+    padding: 16px;
+  }
+
+
+
+.parallax {
+    min-height: 600px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#home {
+   background-color: #D37203;
+}
+
+#island {
+    background-color: #D37203;
+ }
+
+ #lodging {
+    background-color: #D37203;
+ }
+
+ 
+
+ #todo {
+    background-color: #D37203;
+ }
+
+ #contact {
+    background-color: #D37203;
+ }
+
+ .column {
+    float: left;
+    width: 30.33%;
+    padding: 5px;
+   
+ }
+ 
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/*slideshow*/
+ 
+
+.ro::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.col {
+    float: left;
+    width: 45%;
+    padding: 10px;
+   
+ }
+
+* {
+   box-sizing: border-box; 
+}
+
+.container {
+    position: relative;
+    
+    
+}
+.slides {
+    display: none;
+  }
+
+.cursor {
+    cursor: pointer;
+}
+
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+  .prev:hover,
+  .next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .numbering {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  .a  {
+    opacity: 0.6;
+  }
+
+  .active,
+  .a:hover {
+    opacity: 1;
+  }
+
+  .tdText {
+    padding-top: 50px;
+    display:-webkit-inline-flex;
+    float: inline-start;
+  }
+
+/*colors: 
+#95ECD1
+#397763
+#D37203
+#1C1CCC
+#08082C
+black */
